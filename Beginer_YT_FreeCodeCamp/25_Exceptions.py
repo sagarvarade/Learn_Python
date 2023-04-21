@@ -42,6 +42,7 @@ finally:
 
 
 class DogNotFoundException(Exception):
+    print("Inside dog not found Exception.")
     pass
 
 try:
