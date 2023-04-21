@@ -28,7 +28,7 @@ talk("This is my pharase word")
 def count():
     count=0
     def increment():
-        nonlocal count
+        nonlocal count  # nonlocal allow us to access outside variable
         count=count+1
         print(count)
     return increment

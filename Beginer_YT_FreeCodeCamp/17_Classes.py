@@ -11,9 +11,10 @@ class Dog(Animal):
     def bark(self):
         print("Woof!",__name__)
 
+
 roger=Dog("roge",23)
 print(type(roger))
-print(roger.name," ",roger.age)
+print(roger.name," - ",roger.age)
 roger.bark()
 print(roger.bark())
 roger.walk()
