@@ -23,7 +23,7 @@ def talk(phrase):
 
 talk("This is my pharase word")
 
-# >>>>>>>>>>>
+# >>>>>>>>>>> Nester function
 
 def count():
     count=0
